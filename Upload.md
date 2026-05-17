@@ -17,18 +17,25 @@ This guide explains how to add new Android apps and games to the LITEAPKS.COM lo
 
 ```
 liteapks.com/
-├── apps/                    # Individual app pages
-├── games/                   # Individual game pages
-├── download/                # Download pages
+├── *.html                   # Individual app and game pages (root level)
+├── games/                   # Game category pages (action.html, adventure.html, etc.)
+├── home/                    # Homepage related files
+├── news/                    # News and blog posts
+├── search/                  # Search functionality
+├── tag/                     # Tag pages
+├── type/                    # Type/category pages
 ├── wp-content/
+│   ├── themes/              # WordPress theme files
 │   └── uploads/
-│       ├── 2026/           # Current year uploads
-│       │   ├── 01/         # January
-│       │   ├── 02/         # February
-│       │   └── ...
-│       ├── 2025/           # Previous years
-│       └── ...
-└── apps.html               # Main apps listing page
+│       ├── 2026/           # Current year uploads (121 items)
+│       ├── 2025/           # Previous year uploads (246 items)
+│       ├── 2024/           # Previous year uploads (121 items)
+│       ├── 2023/           # Previous year uploads (14 items)
+│       └── 2022/           # Previous year uploads (1 item)
+├── apps.html               # Main apps listing page
+├── games.html              # Main games listing page
+├── index.html              # Homepage
+└── news.html               # News listing page
 ```
 
 ## Step-by-Step Upload Process
@@ -53,16 +60,16 @@ Place your media files in the appropriate uploads directory:
 
 ```bash
 # Navigate to uploads directory
-cd liteapks.com/wp-content/uploads/2026/05/  # Adjust month as needed
+cd liteapks.com/wp-content/uploads/2026/  # Current year
 
-# Place files here:
+# Place files directly in the year directory (no month subdirectories):
 # - app-icon.png
 # - screenshot-1.png
 # - screenshot-2.png
 # - etc.
 ```
 
-**Path format:** `liteapks.com/wp-content/uploads/YYYY/MM/filename.ext`
+**Path format:** `liteapks.com/wp-content/uploads/YYYY/filename.ext`
 
 ### 3. Create App Page
 
@@ -84,13 +91,13 @@ Create a new HTML file in the `liteapks.com/apps/` directory for applications or
     <title>App Name - MOD APK Download | LITEAPKS</title>
     <meta name="description" content="Download App Name MOD APK for Android. Features, version info, and free download link.">
     <!-- Include existing theme CSS -->
-    <link rel="stylesheet" href="../wp-content/themes/liteapks/styleb5da.css">
+    <link rel="stylesheet" href="wp-content/themes/liteapks/styleb5da.css">
 </head>
 <body>
     <!-- Main content structure - copy from existing app page -->
     <div class="app-container">
         <div class="app-header">
-            <img src="../wp-content/uploads/2026/05/app-icon.png" alt="App Name" class="app-icon">
+            <img src="wp-content/uploads/2026/app-icon.png" alt="App Name" class="app-icon">
             <div class="app-info">
                 <h1>App Name</h1>
                 <p class="app-version">Version: 1.0.0</p>
@@ -146,7 +153,7 @@ Create a download page in the `liteapks.com/download/` directory.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Download App Name v1.0.0 MOD APK | LITEAPKS</title>
     <meta name="description" content="Download App Name MOD APK version 1.0.0 for Android free.">
-    <link rel="stylesheet" href="../wp-content/themes/liteapks/styleb5da.css">
+    <link rel="stylesheet" href="wp-content/themes/liteapks/styleb5da.css">
 </head>
 <body>
     <div class="download-container">
@@ -187,6 +194,8 @@ Add your new app to the appropriate listing page:
 
 **For Apps:** Edit `liteapks.com/apps.html`
 **For Games:** Edit `liteapks.com/games.html`
+
+Note: Both apps and games have their individual HTML pages in the root directory.
 
 Add an entry in the apps/games grid following the existing pattern:
 
@@ -255,9 +264,9 @@ Common mod features to mention:
 
 Before considering an upload complete:
 
-- [ ] App page created in correct directory (apps/ or games/)
-- [ ] Download page created in download/ directory
-- [ ] Media files uploaded to wp-content/uploads/YYYY/MM/
+- [ ] App/game page created in root directory
+- [ ] Download page created in root directory
+- [ ] Media files uploaded to wp-content/uploads/YYYY/
 - [ ] All image paths are correct and relative
 - [ ] App added to apps.html or games.html
 - [ ] Links between pages work correctly
@@ -274,7 +283,7 @@ Before considering an upload complete:
 
 ### Links Not Working
 - **Problem:** Clicking app doesn't navigate correctly
-- **Solution:** Ensure all links use relative paths (e.g., `apps/app-name.html` not `/apps/app-name.html`)
+- **Solution:** Ensure all links use relative paths (e.g., `app-name.html` not `/apps/app-name.html` or `apps/app-name.html`)
 
 ### Styling Issues
 - **Problem:** Page looks different from others
@@ -293,19 +302,19 @@ For frequent uploads, consider:
 Let's say you want to add "Spotify Premium MOD":
 
 ```bash
-# 1. Create uploads directory for this month
-mkdir -p liteapks.com/wp-content/uploads/2026/05
+# 1. Create uploads directory for this year (if not exists)
+mkdir -p liteapks.com/wp-content/uploads/2026
 
 # 2. Place media files
 # Copy spotify-icon.png and screenshots to:
-# liteapks.com/wp-content/uploads/2026/05/
+# liteapks.com/wp-content/uploads/2026/
 
 # 3. Create app page
-# Edit liteapks.com/apps/spotify-premium.html
+# Edit liteapks.com/spotify-premium.html
 # Use template, fill in details, set image paths
 
 # 4. Create download page
-# Edit liteapks.com/download/spotify-premium-8.8.50.html
+# Edit liteapks.com/spotify-premium-8.8.50.html
 # Use download template
 
 # 5. Update listing
@@ -313,7 +322,7 @@ mkdir -p liteapks.com/wp-content/uploads/2026/05
 # Add Spotify card to the grid
 
 # 6. Test
-# Open liteapks.com/apps/spotify-premium.html in browser
+# Open liteapks.com/spotify-premium.html in browser
 # Verify all images load and links work
 ```
 
@@ -331,3 +340,5 @@ For issues or questions:
 - APK files are not hosted in this mirror structure
 - External links require internet connection
 - Maintain consistency with existing pages for best user experience
+- All app/game HTML files are in the root directory, not in subdirectories
+
