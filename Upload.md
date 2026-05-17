@@ -73,7 +73,7 @@ cd liteapks.com/wp-content/uploads/2026/  # Current year
 
 ### 3. Create App Page
 
-Create a new HTML file in the `liteapks.com/apps/` directory for applications or `liteapks.com/games/` for games.
+Create a new HTML file in the root `liteapks.com/` directory for both applications and games.
 
 **File Naming Convention:**
 - Use lowercase, hyphen-separated names
@@ -121,27 +121,28 @@ Create a new HTML file in the `liteapks.com/apps/` directory for applications or
         
         <div class="app-screenshots">
             <h2>Screenshots</h2>
-            <img src="../wp-content/uploads/2026/05/screenshot-1.png" alt="Screenshot 1">
-            <img src="../wp-content/uploads/2026/05/screenshot-2.png" alt="Screenshot 2">
+            <img src="wp-content/uploads/2026/screenshot-1.png" alt="Screenshot 1">
+            <img src="wp-content/uploads/2026/screenshot-2.png" alt="Screenshot 2">
         </div>
         
         <div class="download-section">
-            <a href="../download/app-name-version.html" class="download-btn">Download APK</a>
+            <a href="app-name-version.html" class="download-btn">Download APK</a>
         </div>
     </div>
 </body>
 </html>
 ```
 
-**Tip:** Copy an existing app page from `liteapks.com/apps/` and modify it to maintain consistent styling.
+**Tip:** Copy an existing app/game page from the root `liteapks.com/` directory and modify it to maintain consistent styling.
 
 ### 4. Create Download Page
 
-Create a download page in the `liteapks.com/download/` directory.
+Create a download page in the root `liteapks.com/` directory.
 
 **File Naming Convention:**
 - Include app name and version
 - Example: `spotify-premium-8.8.50.html`
+- Place download pages in the root directory alongside app/game pages
 
 **Download Page Template:**
 
@@ -201,8 +202,8 @@ Add an entry in the apps/games grid following the existing pattern:
 
 ```html
 <div class="app-card">
-    <a href="apps/app-name.html">
-        <img src="wp-content/uploads/2026/05/app-icon.png" alt="App Name">
+    <a href="app-name.html">
+        <img src="wp-content/uploads/2026/app-icon.png" alt="App Name">
         <h3>App Name</h3>
         <p class="app-category">Music & Audio</p>
     </a>
@@ -255,7 +256,7 @@ Common mod features to mention:
 ## File Organization Best Practices
 
 1. **Use consistent naming** - lowercase, hyphens only
-2. **Organize by date** - use current year/month in uploads
+2. **Organize by date** - use current year in uploads (no month subdirectories)
 3. **Keep related files together** - app icon and screenshots in same folder
 4. **Maintain directory structure** - don't create new top-level directories
 5. **Use relative paths** - all links should be relative to maintain portability
@@ -279,7 +280,7 @@ Before considering an upload complete:
 
 ### Images Not Displaying
 - **Problem:** Images show as broken links
-- **Solution:** Check that file paths are relative and correct. Use `../wp-content/uploads/...` format
+- **Solution:** Check that file paths are relative and correct. Use `wp-content/uploads/YYYY/...` format (no month subdirectories)
 
 ### Links Not Working
 - **Problem:** Clicking app doesn't navigate correctly
@@ -338,7 +339,5 @@ For issues or questions:
 
 - This is a static mirror - dynamic features (search, comments) won't work
 - APK files are not hosted in this mirror structure
-- External links require internet connection
 - Maintain consistency with existing pages for best user experience
 - All app/game HTML files are in the root directory, not in subdirectories
-
