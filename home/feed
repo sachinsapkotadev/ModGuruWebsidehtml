@@ -8,9 +8,9 @@
 <channel>
 	<title>
 	Comments on: Home	</title>
-	<atom:link href="https://MOD HURU.com/home/feed" rel="self" type="application/rss+xml" />
-	<link>https://MOD HURU.com/</link>
-	<description></description>
+	<atom:link href="https://sachinsapkotadev.github.io/ModGuruWebsidehtml/home/feed" rel="self" type="application/rss+xml" />
+	<link>https://sachinsapkotadev.github.io/ModGuruWebsidehtml/index.html</link>
+	<description>ModGuru - Your ultimate destination for Grand Theft Auto V mods</description>
 	<lastBuildDate>Mon, 06 Oct 2025 19:24:11 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
