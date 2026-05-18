@@ -2,7 +2,7 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>https://MOD HURU.com/</homePageLink>
+		<homePageLink>https://sachinsapkotadev.github.io/ModGuruWebsidehtml/index.html/</homePageLink>
 		<apis>
 			<api name="WordPress" blogID="1" preferred="true" apiLink="https://MOD HURU.com/xmlrpc.php" />
 			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://MOD HURU.com/xmlrpc.php" />
