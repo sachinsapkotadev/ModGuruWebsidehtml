@@ -2,13 +2,13 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>https://liteapks.com/</homePageLink>
+		<homePageLink>https://MOD HURU.com/</homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="https://liteapks.com/xmlrpc.php" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://liteapks.com/xmlrpc.php" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://liteapks.com/xmlrpc.php" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="https://liteapks.com/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="https://liteapks.com/wp-json/" />
+			<api name="WordPress" blogID="1" preferred="true" apiLink="https://MOD HURU.com/xmlrpc.php" />
+			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://MOD HURU.com/xmlrpc.php" />
+			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://MOD HURU.com/xmlrpc.php" />
+			<api name="Blogger" blogID="1" preferred="false" apiLink="https://MOD HURU.com/xmlrpc.php" />
+				<api name="WP-API" blogID="1" preferred="false" apiLink="https://MOD HURU.com/wp-json/" />
 			</apis>
 	</service>
 </rsd>

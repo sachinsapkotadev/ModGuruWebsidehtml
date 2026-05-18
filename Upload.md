@@ -1,8 +1,8 @@
-# Upload Guide - Adding New Apps to LITEAPKS.COM Mirror
+# Upload Guide - Adding New Apps to MOD HURU.COM Mirror
 
 ## Overview
 
-This guide explains how to add new Android apps and games to the LITEAPKS.COM local mirror. Since this is a static mirror of a WordPress site, you'll need to manually create the necessary HTML files and organize assets following the existing structure.
+This guide explains how to add new Android apps and games to the MOD HURU.COM local mirror. Since this is a static mirror of a WordPress site, you'll need to manually create the necessary HTML files and organize assets following the existing structure.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ This guide explains how to add new Android apps and games to the LITEAPKS.COM lo
 ## Directory Structure Reference
 
 ```
-liteapks.com/
+MOD HURU.com/
 ├── *.html                   # Individual app and game pages (root level)
 ├── games/                   # Game category pages (action.html, adventure.html, etc.)
 ├── home/                    # Homepage related files
@@ -60,7 +60,7 @@ Place your media files in the appropriate uploads directory:
 
 ```bash
 # Navigate to uploads directory
-cd liteapks.com/wp-content/uploads/2026/  # Current year
+cd MOD HURU.com/wp-content/uploads/2026/  # Current year
 
 # Place files directly in the year directory (no month subdirectories):
 # - app-icon.png
@@ -69,11 +69,11 @@ cd liteapks.com/wp-content/uploads/2026/  # Current year
 # - etc.
 ```
 
-**Path format:** `liteapks.com/wp-content/uploads/YYYY/filename.ext`
+**Path format:** `MOD HURU.com/wp-content/uploads/YYYY/filename.ext`
 
 ### 3. Create App Page
 
-Create a new HTML file in the root `liteapks.com/` directory for both applications and games.
+Create a new HTML file in the root `MOD HURU.com/` directory for both applications and games.
 
 **File Naming Convention:**
 - Use lowercase, hyphen-separated names
@@ -88,10 +88,10 @@ Create a new HTML file in the root `liteapks.com/` directory for both applicatio
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Name - MOD APK Download | LITEAPKS</title>
+    <title>App Name - MOD APK Download | MOD HURU</title>
     <meta name="description" content="Download App Name MOD APK for Android. Features, version info, and free download link.">
     <!-- Include existing theme CSS -->
-    <link rel="stylesheet" href="wp-content/themes/liteapks/styleb5da.css">
+    <link rel="stylesheet" href="wp-content/themes/MOD HURU/styleb5da.css">
 </head>
 <body>
     <!-- Main content structure - copy from existing app page -->
@@ -133,11 +133,11 @@ Create a new HTML file in the root `liteapks.com/` directory for both applicatio
 </html>
 ```
 
-**Tip:** Copy an existing app/game page from the root `liteapks.com/` directory and modify it to maintain consistent styling.
+**Tip:** Copy an existing app/game page from the root `MOD HURU.com/` directory and modify it to maintain consistent styling.
 
 ### 4. Create Download Page
 
-Create a download page in the root `liteapks.com/` directory.
+Create a download page in the root `MOD HURU.com/` directory.
 
 **File Naming Convention:**
 - Include app name and version
@@ -152,9 +152,9 @@ Create a download page in the root `liteapks.com/` directory.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download App Name v1.0.0 MOD APK | LITEAPKS</title>
+    <title>Download App Name v1.0.0 MOD APK | MOD HURU</title>
     <meta name="description" content="Download App Name MOD APK version 1.0.0 for Android free.">
-    <link rel="stylesheet" href="wp-content/themes/liteapks/styleb5da.css">
+    <link rel="stylesheet" href="wp-content/themes/MOD HURU/styleb5da.css">
 </head>
 <body>
     <div class="download-container">
@@ -193,8 +193,8 @@ Create a download page in the root `liteapks.com/` directory.
 
 Add your new app to the appropriate listing page:
 
-**For Apps:** Edit `liteapks.com/apps.html`
-**For Games:** Edit `liteapks.com/games.html`
+**For Apps:** Edit `MOD HURU.com/apps.html`
+**For Games:** Edit `MOD HURU.com/games.html`
 
 Note: Both apps and games have their individual HTML pages in the root directory.
 
@@ -212,7 +212,7 @@ Add an entry in the apps/games grid following the existing pattern:
 
 ### 6. Update Homepage (Optional)
 
-If you want the app to appear on the homepage, edit `liteapks.com/index.html` and add it to the featured apps section.
+If you want the app to appear on the homepage, edit `MOD HURU.com/index.html` and add it to the featured apps section.
 
 ## Content Guidelines
 
@@ -304,26 +304,26 @@ Let's say you want to add "Spotify Premium MOD":
 
 ```bash
 # 1. Create uploads directory for this year (if not exists)
-mkdir -p liteapks.com/wp-content/uploads/2026
+mkdir -p MOD HURU.com/wp-content/uploads/2026
 
 # 2. Place media files
 # Copy spotify-icon.png and screenshots to:
-# liteapks.com/wp-content/uploads/2026/
+# MOD HURU.com/wp-content/uploads/2026/
 
 # 3. Create app page
-# Edit liteapks.com/spotify-premium.html
+# Edit MOD HURU.com/spotify-premium.html
 # Use template, fill in details, set image paths
 
 # 4. Create download page
-# Edit liteapks.com/spotify-premium-8.8.50.html
+# Edit MOD HURU.com/spotify-premium-8.8.50.html
 # Use download template
 
 # 5. Update listing
-# Edit liteapks.com/apps.html
+# Edit MOD HURU.com/apps.html
 # Add Spotify card to the grid
 
 # 6. Test
-# Open liteapks.com/spotify-premium.html in browser
+# Open MOD HURU.com/spotify-premium.html in browser
 # Verify all images load and links work
 ```
 

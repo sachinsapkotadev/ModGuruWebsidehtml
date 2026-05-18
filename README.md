@@ -1,12 +1,12 @@
-# LITEAPKS.COM - Local Mirror
+# MOD HURU.COM - Local Mirror
 
 ## Overview
 
-This is a local mirror of [LITEAPKS.COM](https://liteapks.com), a leading reputable source for MOD APKs, free games, and apps for Android. The website was downloaded using HTTrack Website Copier/3.49-2 on May 17, 2026.
+This is a local mirror of [MOD HURU.COM](https://MOD HURU.com), a leading reputable source for MOD APKs, free games, and apps for Android. The website was downloaded using HTTrack Website Copier/3.49-2 on May 17, 2026.
 
 ## Website Purpose
 
-LITEAPKS.COM is an Android MOD APK download platform that provides:
+MOD HURU.COM is an Android MOD APK download platform that provides:
 - **Modded Applications**: Premium and modified versions of popular Android apps
 - **Modded Games**: Unlocked and modified versions of Android games
 - **Free Downloads**: All content is provided completely free of charge
@@ -14,22 +14,22 @@ LITEAPKS.COM is an Android MOD APK download platform that provides:
 
 ## Team Information
 
-According to the website, LITEAPKS is run by an elite group of modders with **5 years of experience** in the field of modding. They provide end users with the highest quality, exclusive mods completely free of charge.
+According to the website, MOD HURU is run by an elite group of modders with **5 years of experience** in the field of modding. They provide end users with the highest quality, exclusive mods completely free of charge.
 
-**Important Note**: The official website has only one address - **LITEAPKS.COM**. Any other similar domains are not affiliated with the team.
+**Important Note**: The official website has only one address - **MOD HURU.COM**. Any other similar domains are not affiliated with the team.
 
 ## Directory Structure
 
 ```
-liteapks.com/
-├── index.html                          # HTTrack index page (redirects to liteapks.com/)
-├── liteapks.com/                       # Main website content
+MOD HURU.com/
+├── index.html                          # HTTrack index page (redirects to MOD HURU.com/)
+├── MOD HURU.com/                       # Main website content
 │   ├── index.html                      # Homepage
 │   ├── apps.html                       # Apps category page
 │   ├── games.html                      # Games category page
 │   ├── collection.html                  # Collections page
 │   ├── news.html                       # News section
-│   ├── about-liteapks-team.html        # About the team
+│   ├── about-MOD HURU-team.html        # About the team
 │   ├── contact.html                    # Contact page
 │   ├── advertiser.html                 # Advertiser information
 │   ├── modding-job.html                # Modding job opportunities
@@ -38,7 +38,7 @@ liteapks.com/
 │   ├── download/                       # APK download pages
 │   ├── wp-content/                     # WordPress content
 │   │   ├── themes/
-│   │   │   └── liteapks/              # Custom WordPress theme
+│   │   │   └── MOD HURU/              # Custom WordPress theme
 │   │   │       ├── assets/            # Theme assets (fonts, CSS, JS)
 │   │   │       ├── images/            # Theme images
 │   │   │       ├── js/                # JavaScript files
@@ -138,7 +138,7 @@ Each app/game page includes:
 
 ### Local Browsing
 1. Open `index.html` in a web browser
-2. The page will automatically redirect to `liteapks.com/index.html`
+2. The page will automatically redirect to `MOD HURU.com/index.html`
 3. Navigate the site as if browsing the live website
 4. All links are preserved and functional for local browsing
 
@@ -152,13 +152,13 @@ Each app/game page includes:
 ## Contact Information
 
 - **Email**: moddroid[@]mail.ru
-- **Website**: https://liteapks.com
+- **Website**: https://MOD HURU.com
 - **Moderator**: Bazhenov
 
 ## File Statistics
 
-- **Total Files**: ~1000+ files in the main liteapks.com directory
-- **WordPress Theme**: Custom "liteapks" theme
+- **Total Files**: ~1000+ files in the main MOD HURU.com directory
+- **WordPress Theme**: Custom "MOD HURU" theme
 - **Media Files**: 500+ uploaded files across 5 years (2022-2026)
 - **Download Pages**: 40+ APK download pages
 - **App/Game Pages**: 100+ individual app and game pages
@@ -174,7 +174,7 @@ Each app/game page includes:
 ## WordPress Structure
 
 ### Theme Details
-- **Theme Name**: liteapks
+- **Theme Name**: MOD HURU
 - **Custom Theme**: Yes
 - **Styling**: TailwindCSS + Custom CSS
 - **Font**: Nunito (Latin)
@@ -188,12 +188,12 @@ Each app/game page includes:
 ## Content Organization
 
 ### URL Structure
-- Homepage: `liteapks.com/index.html`
-- Apps: `liteapks.com/apps.html`
-- Games: `liteapks.com/games.html`
-- Individual App: `liteapks.com/app-name.html`
-- Download: `liteapks.com/download/app-name-version.html`
-- Collections: `liteapks.com/collection/collection-name.html`
+- Homepage: `MOD HURU.com/index.html`
+- Apps: `MOD HURU.com/apps.html`
+- Games: `MOD HURU.com/games.html`
+- Individual App: `MOD HURU.com/app-name.html`
+- Download: `MOD HURU.com/download/app-name-version.html`
+- Collections: `MOD HURU.com/collection/collection-name.html`
 
 ### Naming Convention
 - App pages use hyphenated names (e.g., `spotify-2.html`)
@@ -219,13 +219,13 @@ The website is designed to work with modern browsers:
 
 To update this mirror:
 1. Use HTTrack Website Copier
-2. Target: https://liteapks.com
+2. Target: https://MOD HURU.com
 3. Enable "Update existing mirror" option
 4. Preserve existing structure and settings
 
 ## Legal Disclaimer
 
-This mirror is provided for archival and educational purposes only. The original website content belongs to LITEAPKS.COM. Users should respect the original website's terms of service and copyright when accessing this mirror.
+This mirror is provided for archival and educational purposes only. The original website content belongs to MOD HURU.COM. Users should respect the original website's terms of service and copyright when accessing this mirror.
 
 ## Troubleshooting
 
@@ -239,14 +239,14 @@ This mirror is provided for archival and educational purposes only. The original
 - Dynamic features (search, forms) are non-functional
 
 ### Styling Issues
-- Ensure all CSS files are present in `wp-content/themes/liteapks/`
+- Ensure all CSS files are present in `wp-content/themes/MOD HURU/`
 - Check that TailwindCSS file is accessible
 
 ## Summary
 
-This is a complete static mirror of LITEAPKS.COM, a popular Android MOD APK download website. The mirror preserves the full structure, design, and content of the original site, allowing for offline browsing of the app/game catalog. The site uses WordPress with a custom theme and provides modded versions of popular Android applications and games.
+This is a complete static mirror of MOD HURU.COM, a popular Android MOD APK download website. The mirror preserves the full structure, design, and content of the original site, allowing for offline browsing of the app/game catalog. The site uses WordPress with a custom theme and provides modded versions of popular Android applications and games.
 
 **Mirror Date**: May 17, 2026  
-**Original URL**: https://liteapks.com  
+**Original URL**: https://MOD HURU.com  
 **Mirror Tool**: HTTrack Website Copier/3.49-2  
 **Status**: Complete static mirror
